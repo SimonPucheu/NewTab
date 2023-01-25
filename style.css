@@ -1,0 +1,64 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+main
+{
+    position: absolute;
+    margin: 15% 0;
+    width: 100%;
+    height: 70%;
+}
+section#title
+{
+    font-size: 3em;
+    text-align: center;
+}
+section#title input
+{
+    width: fit-content;
+    padding: inherit;
+    color: inherit;
+    background-color: inherit;
+    margin: inherit;
+    border: inherit;
+    font-size: inherit;
+}
+section#search #bar
+{
+    width: 70%;
+    height: 50px;
+    margin: auto;
+}
+section#search input
+{
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px 10px 50px;
+    color: inherit;
+    background-color: inherit;
+    margin: inherit;
+    border: 2px solid gray;
+    border-radius: 50px;
+    font-size: 20px;
+}
+section#title input:focus
+{
+    outline: #000 solid 2px;
+    border-radius: 10px;
+}
+section#search #icon
+{
+    position: absolute;
+    margin: 10px;
+    height: 30px;
+}
+section#clock #hours::after
+{
+    content: ' :';
+}
